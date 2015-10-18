@@ -12,7 +12,7 @@ Mean weighted is
 34.875
 Harmonic mean is
 34.311693655628545
-Geometrix mean is
+Geometric mean is
 34.54993522425276
 *Main>
 -}
@@ -37,5 +37,5 @@ main = do
     print $ meanWeighted weightedSample
     putStrLn "Harmonic mean is"
     print $ harmonicMean sample
-    putStrLn "Geometrix mean is"
+    putStrLn "Geometric mean is"
     print $ geometricMean sample
