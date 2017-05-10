@@ -1,3 +1,4 @@
+{-
 MacBook-Air:03chapt billw$ ghci
 GHCi, version 7.10.2: http://www.haskell.org/ghc/  :? for help
 Prelude> :t 'a'
@@ -13,3 +14,4 @@ Prelude> :t 4 ==5
 Prelude> :t 4 == 5
 4 == 5 :: Bool
 Prelude>
+-}
