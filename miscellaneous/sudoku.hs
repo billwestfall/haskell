@@ -1,4 +1,4 @@
-import List
+import Data.List
 
 type T = (Int,Int) -> [Int]
 
