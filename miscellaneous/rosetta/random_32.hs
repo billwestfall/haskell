@@ -1,4 +1,4 @@
 
 import System.Random
 rthir = randomRIO (0, 2147483647)
-main = print rthir
+main = putStrLn rthir
