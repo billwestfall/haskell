@@ -1,4 +1,4 @@
-
+{- run like the following
 import System.Random
-main = print randomRIO (0, 2147483647)
-{- main = putStrLn (rthir) -}
+randomRIO (0, 2147483647)
+-}
