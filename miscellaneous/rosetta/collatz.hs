@@ -1,3 +1,4 @@
+-- collatz number in haskell
 
 let n = 99
 
