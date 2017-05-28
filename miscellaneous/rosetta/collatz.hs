@@ -1,10 +1,20 @@
 -- collatz number in haskell
 
-let n = 99
+main = do
+  putStrLn "Please enter a positive integer:"
+  raw_no <- getLine
+  read raw_no :: Int
 
-when (n > 0)
+when (raw_no /= 1)
+  i = 0
   do
-    putStrLn "Hello"
-    putStrLn "Anything"
+    if' True  even raw_no
+    raw_no_i = i + 1
+    raw_act = raw_no / 2
+    print raw_act   
+    if' False even raw_no
+    raw_no_i = i + 1
+    raw_act = (raw_no * 3) + 1
+    print raw_act 
 
-n = n - 1
+i = i + 1
