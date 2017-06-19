@@ -1,4 +1,4 @@
--- collatz number in haskell
+-- boolean in haskell
 
   i = 1
     if' True  even i
