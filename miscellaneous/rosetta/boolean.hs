@@ -1,12 +1,14 @@
 {- boolean in haskell
 run as runhaskell boolean.hs -}
 
+main=do
+
 i = 1
 when (i < 3)
 
     if' True  even i
-    print "True"   
+    putStrLn "True"   
     if' False even i
-    print "False"
+    putStrLn "False"
 
 i = i + 1
