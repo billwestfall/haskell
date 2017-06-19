@@ -1,4 +1,5 @@
--- boolean in haskell
+{- boolean in haskell
+run as runhaskell boolean.hs -}
 
 i = 1
 when (i < 3)
