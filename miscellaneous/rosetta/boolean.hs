@@ -3,7 +3,7 @@ run as runhaskell boolean.hs -}
 
 main = do
 
-i = 1
+let i = 1
 when (i < 3)
   do
     if' True  even i
