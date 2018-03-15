@@ -1,4 +1,4 @@
-{--
+{-
 Prelude> 1 ++ 1
 
 <interactive>:2:1:
@@ -51,4 +51,4 @@ Prelude> [1,2..13]
 Prelude> [3,5..13]
 [3,5,7,9,11,13]
 Prelude> 
---}
+-}
