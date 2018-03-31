@@ -1,14 +1,14 @@
 import Test.QuickCheck
 import Data.List
 
-main = do
 qsort :: Ord a => [a] -> [a]
 qsort [] = []
 qsort (x:xs) = qsort lhs ++ [x] ++ qsort rhs
   where lhs = filter (< x) xs
         rhs = filter (>= x) xs
 prop_idempotent xs = qsort (qsort xs) == qsort xs
-  
+
+main = do
     a <- return "hello"  
     b <- return "world"  
-    putStrLn $ a ++ " " ++ b 
+    putStrLn $ a ++ " " ++ b " " ++ xs
