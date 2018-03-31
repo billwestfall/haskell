@@ -9,9 +9,6 @@ qsort (x:xs) = qsort lhs ++ [x] ++ qsort rhs
 prop_idempotent xs = qsort (qsort xs) == qsort xs
 
 main = do  
-    return ()  
-    return "HAHAHA"  
-    line <- getLine  
-    return "BLAH BLAH BLAH"  
-    return 4  
-    putStrLn line
+    a <- return "hello"  
+    b <- return "world"  
+    putStrLn $ a ++ " " ++ b 
