@@ -13,7 +13,7 @@ main = do
     b <- return "world"  
     putStrLn $ a ++ " " ++ b
 
-@
+{-
 Prelude> :l 001.hs
 [1 of 1] Compiling Main             ( 001.hs, interpreted )
 Ok, modules loaded: Main.
@@ -63,4 +63,4 @@ verboseCheck :: Testable prop => prop -> IO ()
 verboseCheck :: Testable prop => prop -> IO ()
 *Main> verboseCheck (prop_idempotent :: [Integer] -> Bool)
 Passed: 
-@
+-}
