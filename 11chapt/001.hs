@@ -8,6 +8,8 @@ qsort (x:xs) = qsort lhs ++ [x] ++ qsort rhs
         rhs = filter (>= x) xs
 prop_idempotent xs = qsort (qsort xs) == qsort xs
 
+prop_minimum' xs = not (null xs) ==> head (qsort xs) == minimum xs
+
 main = do
     a <- return "hello"  
     b <- return "world"  
