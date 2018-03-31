@@ -9,4 +9,4 @@ qsort (x:xs) = qsort lhs ++ [x] ++ qsort rhs
 prop_idempotent xs = qsort (qsort xs) == qsort xs
 
 main :: IO ()
-main = return ()
+main = return (xs)
