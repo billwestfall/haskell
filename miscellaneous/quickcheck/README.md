@@ -9,7 +9,7 @@ Prelude> :l quick01.hs
 Ok, one module loaded.
 *Main> quickCheck prop_Insert
 +++ OK, passed 100 tests.
-*Main>
+*Main>```
  
 the quick02.hs file is an example of a failing condition for quickCheck
 
@@ -22,3 +22,4 @@ Ok, one module loaded.
 *** Failed! Falsifiable (after 3 tests and 3 shrinks):    
 [0,1]
 *Main>
+```
